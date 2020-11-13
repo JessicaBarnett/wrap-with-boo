@@ -1,11 +1,10 @@
 {
   "name": "wrap-with-boo",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "This package will wrap any string you pass it in ghost emojis",
   "main": "src/index.js",
   "scripts": {
-    "wrap-with-boo-2": "node cli.js",
-    "wrap-with-boo": "node index.js",
+    "wrap-with-boo": "node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
