@@ -1,0 +1,12 @@
+{
+  "name": "wrap-with-boo",
+  "version": "1.0.0",
+  "description": "This package will wrap any string you pass it in ghost emojis",
+  "main": "index.js",
+  "scripts": {
+    "wrap-with-boo": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jessica Barnett",
+  "license": "ISC"
+}
