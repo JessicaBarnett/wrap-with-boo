@@ -1,13 +1,20 @@
 {
   "name": "wrap-with-boo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This package will wrap any string you pass it in ghost emojis",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "wrap-with-boo-2": "node cli.js",
     "wrap-with-boo": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "@rainingredpandas/wrap-with-boo": "bin/wrap-with-boo",
+    "wrap-with-boo": "bin/wrap-with-boo"
+  },
+  "keywords": [
+    "wrap-with-boo"
+  ],
   "author": "Jessica Barnett",
   "license": "ISC",
   "homepage": "https://github.com/JessicaBarnett/wrap-with-boo"
