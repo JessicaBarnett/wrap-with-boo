@@ -1,6 +1,6 @@
 {
   "name": "wrap-with-boo",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "This package will wrap any string you pass it in ghost emojis",
   "main": "./src/index.js",
   "scripts": {
@@ -12,6 +12,10 @@
   },
   "keywords": [
     "wrap-with-boo"
+  ],
+  "files": [
+    "bin/",
+    "src/"
   ],
   "author": "Jessica Barnett",
   "license": "ISC",
